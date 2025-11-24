@@ -1,0 +1,8 @@
+---
+- name: Exemple playbook pour pipeline Jenkins
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Afficher un message
+      debug:
+        msg: "Ansible exécuté depuis Jenkins !"
