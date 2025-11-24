@@ -10,7 +10,7 @@ pipeline {
 
         stage('Exécuter le playbook Ansible') {
             steps {
-                sh 'ansible-playbook playbook.yml'
+                bat 'ansible-playbook playbook.yml'
             }
         }
     }
